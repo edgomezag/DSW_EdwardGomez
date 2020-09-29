@@ -1,0 +1,12 @@
+Fundamentos de Git
+Git almacena y maneja la información de forma muy diferente a esos otros
+sistemas, a pesar de que su interfaz de usuario es bastante similar.
+Comprender esas diferencias evitará que te confundas a la hora de usarlo.
+
+Copias instantáneas, no diferencias
+La principal diferencia entre Git y cualquier otro VCS (incluyendo Subversion
+y sus amigos) es la forma en la que manejan sus datos. Conceptualmente, la mayoría
+de los otros sistemas almacenan la información como una lista de cambios en los
+archivos. Estos sistemas (CVS, Subversion, Perforce, Bazaar, etc.) manejan la 
+información que almacenan como un conjunto de archivos y las modificaciones hechas
+a cada uno de ellos a través del tiempo.
