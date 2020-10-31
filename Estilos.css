@@ -1,0 +1,29 @@
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+h3{
+        font-family: sans-serif;
+        text-align: justify;
+        padding: 20px;
+    }
+.color_rojo{
+        color: red;
+        font-size: larger;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .color_verde{
+        color: seagreen;
+        font-size: x-large;
+        font-family: monospace;
+    }
+    .tabla_div{
+        padding: 50px;
+    }
+    .identidad{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: justify;
+        padding: 20px;
+        color: #005883;
+        
+    }
