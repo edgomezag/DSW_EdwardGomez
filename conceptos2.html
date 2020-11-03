@@ -20,12 +20,13 @@
        
 </div>
 
-<h2>Conceptos</h2>
-<a href="conceptos1.html"> conceptos</a>
+<h2 class="titulo">Conceptos</h2>
+<a href="conceptos1.html"> Volver a primera página de conceptos</a>
 
-<table class="tabla_conceptos">
-    <tr class="titulos_conceptos">
-        <td >
+<table>
+    <tr>
+        <td class="tabla_conceptos">
+            <img src="Git_4.png" alt="GITHUB"> <br> <br>
             Sistemas de Control de Versiones Centralizados <br> <br>
             
             Para Chacon, S. & Straub, B. (2014), el siguiente gran problema con el que se encuentran las personas es que necesitan colaborar con desarrolladores en otros sistemas. Los sistemas de Control de Versiones Centralizados
@@ -38,24 +39,25 @@
             entonces durante esa hora nadie podrá colaborar o guardar cambios en archivos en los que hayan estado trabajando. Si el disco duro en el que se encuentra la base de datos central se corrompe, 
             y no se han realizado copias de seguridad adecuadamente, se perderá toda la información del proyecto, con excepción de las copias instantáneas que las personas tengan en sus máquinas locales. <br> <br>
             Los VCS locales sufren de este mismo problema: Cuando tienes toda la historia del proyecto en un mismo lugar, te arriesgas a perderlo todo.
-
-        </td>
-        <td>
-            <img src="Git_4.png" alt="GITHUB">
         </td>
        
-        <td>
-            <img src="Git_5.png" alt="GITHUB">
-        </td>
-        <td >
+        <td class="tabla_conceptos">
             Sistemas de Control de Versiones Distribuidos <br> <br>
             Los sistemas de Control de Versiones Distribuidos (DVCS por sus siglas en inglés) ofrecen soluciones para los problemas que han sido mencionados. En un DVCS (como Git, Mercurial, 
             Bazaar o Darcs), los clientes no solo descargan la última copia instantánea de los archivos, sino que se replica completamente el repositorio. <br> <br>
             De esta manera, si un servidor deja de funcionar y estos sistemas estaban colaborando a través de él, cualquiera de los repositorios disponibles en los clientes puede ser copiado 
-            al servidor con el fin de restaurarlo. Cada clon es realmente una copia completa de todos los datos, Chacon, S. & Straub, B. (2014).            
+            al servidor con el fin de restaurarlo. Cada clon es realmente una copia completa de todos los datos. <br> <br>
+
+            Además, muchos de estos sistemas se encargan de manejar numerosos repositorios remotos con los cuales pueden trabajar, de tal forma que puedes colaborar simultáneamente con 
+            diferentes grupos de personas en distintas maneras dentro del mismo proyecto. Esto permite establecer varios flujos de trabajo que no son posibles en sistemas centralizados, 
+            como pueden ser los modelos jerárquicos., Chacon, S. & Straub, B. (2014). <br> <br>
+
+            <img src="Git_5.png" alt="GITHUB">
         </td>
-       
     </tr>
+</table>
+
+
 </table>
 
 </body>

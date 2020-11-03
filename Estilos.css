@@ -1,7 +1,12 @@
-.titulo{
-    text-align: center;
+body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.titulo{
+    text-align: center;
+    }
+    .body{
+        background-color: #005883
+    }
 .menu{
         padding: 20pix;
         background-color: #F0B429;
@@ -12,18 +17,20 @@
     }
 
     .tabla_inicio{
-        width: 80%;
-        margin: 20pix;
+        width: 100%;
+        margin: 30pix;
         padding: 50px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        align-items: center;
+        color: seashell;
     }
     .tabla_conceptos{
         text-align: justify;
-        width: 100%;
-        margin: 20pix;
-        padding: 50px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width: 80%;
+        margin: 30pix;
+        padding: 20px;
     }
+    
     .titulos{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         text-align: justify;
@@ -38,4 +45,11 @@
     }
     .twit{
         text-align: right;
+    }
+    .recursos{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: justify;
+        padding: 40px;
+        margin: 60;
+        color: #333333;
     }
