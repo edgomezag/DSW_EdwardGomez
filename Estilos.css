@@ -17,6 +17,13 @@
         padding: 50px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
+    .tabla_conceptos{
+        text-align: justify;
+        width: 100%;
+        margin: 20pix;
+        padding: 50px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
     .titulos{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         text-align: justify;
