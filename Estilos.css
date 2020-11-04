@@ -4,9 +4,10 @@ body{
 .titulo{
     text-align: center;
     }
-    .body{
+    .body_inicio{
         background-color: #005883
     }
+    
 .menu{
         padding: 20pix;
         background-color: #F0B429;
@@ -26,9 +27,16 @@ body{
     }
     .tabla_conceptos{
         text-align: justify;
-        width: 80%;
+        width:50%;
         margin: 30pix;
         padding: 20px;
+    }
+    .tabla_conceptosII{
+        text-align: justify;
+        width:50%;
+        margin: 50pix;
+        padding: 40px;
+        background-color: #005883
     }
     
     .titulos{
