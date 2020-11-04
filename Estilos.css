@@ -18,11 +18,11 @@ body{
     }
 
     .tabla_inicio{
+        text-align: justify;
         width: 100%;
         margin: 30pix;
         padding: 50px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        align-items: center;
         color: seashell;
     }
     .tabla_conceptos{
